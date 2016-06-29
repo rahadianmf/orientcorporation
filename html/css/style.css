@@ -308,6 +308,10 @@ h4.copyright {
     margin-top: 30px;
 }
 
+.whitespace-3 {
+    margin-top: 10px;
+}
+
 .whitespace2 {
     height: 30px;
 }
@@ -473,7 +477,7 @@ p.service {
     overflow: hidden;
     display: block;
     position: relative;
-    background: url('../img/hero_image.jpg') no-repeat;
+    /*background: url('../img/hero_image.jpg') no-repeat;*/
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -594,11 +598,17 @@ a.menu-product {
 
 }
 
+h1.prodetail {
+    letter-spacing: -0.9px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 35px important;
+}
 
-
-
-
-
+h2.prodetail {
+    font-size: 18px !important;
+    margin-bottom: 16px !important; 
+}
 
 /*  Contact page map  */
 #map .map_adresse{

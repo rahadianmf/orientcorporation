@@ -26,11 +26,11 @@
 		<div id="menu_icon"></div>
 		<nav>
 			<ul>
-				<li><a onscroll = "changecolor()" href="index.html" class="menu">Home</a></li>
-				<li><a onscroll = "changecolor()" href="#products" class="menu">Product</a></li>
-				<li><a onscroll = "changecolor()" href="#about" class="menu">About Us</a></li>
-				<li><a onscroll = "changecolor()" href="#services" class="menu">Services</a></li>
-				<li><a onscroll = "changecolor()" href="#contact" class="menu">Contact Us</a></li>
+				<li><a href="index.html" class="menu">Home</a></li>
+				<li><a href="products.html" class="menu">Product</a></li>
+				<li><a href="about.html" class="menu">About Us</a></li>
+				<li><a href="about.html" class="menu">Services</a></li>
+				<li><a href="contact.html" class="menu">Contact Us</a></li>
 			</ul>
 		</nav><!-- end navigation menu -->
 
@@ -269,7 +269,7 @@
 						Indonesia
 					</p>
 					<p>
-						<a href = "mailto:sales@orientcorporation.co.id?Subject=Hello!" target="_top">
+						<a href = "mailto:sales@orientcorporation.co.id?Subject=Hello!" target="_blank">
 							sales@orientcorporation.co.id
 						</a>
 					</p>
@@ -290,11 +290,11 @@
 	<script>
 	function initialize() {
 	  var mapProp = {
-	    center:new google.maps.LatLng(-6.177036, 106.956819),
+	    center: new google.maps.LatLng(-6.177036, 106.956819),
 	    zoom:15,
 	    mapTypeId:google.maps.MapTypeId.ROADMAP
 	  };
-	  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+	  var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 	}
 	google.maps.event.addDomListener(window, 'load', initialize);
 	</script>
@@ -310,10 +310,14 @@
 		});
 	</script>
 	<script>
+
+		$(window).on('hashchange', function(e){
+		    history.replaceState ("", document.title, e.originalEvent.oldURL);
+		});
+
 		$(document).ready(function(){
 		  // Add smooth scrolling to all links
 		  $("a").on('click', function(event) {
-
 		    // Make sure this.hash has a value before overriding default behavior
 		    if (this.hash !== "") {
 		      // Prevent default anchor click behavior
