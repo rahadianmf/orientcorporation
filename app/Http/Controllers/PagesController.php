@@ -33,6 +33,10 @@ class PagesController extends Controller
     {
         return view("contact");
     }
+
+    public function productDetail() {
+        return view("productDetail");
+    }
     /**
      * Show the form for creating a new resource.
      *

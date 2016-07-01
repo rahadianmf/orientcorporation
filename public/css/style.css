@@ -381,7 +381,6 @@ p.service {
 /*  Main  */
 .main , .main-quotes{
     width: 100%;
-    height: 100%;
     padding-left: 300px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -681,7 +680,9 @@ h2.prodetail {
         width: 100%;
         min-height: 100px;
         padding: 0;
-        position: relative;
+        position: fixed;
+        z-index: 56;
+        background: #f6f6f6;
     }
     header .logo{
         margin: 40px 0 0 10px;
@@ -740,7 +741,7 @@ h2.prodetail {
 
 @media (max-width:768px) {*/
     .main-quotes h1.quotes {
-        padding-top: 5px;
+        padding-top: 80px;
         padding-left: 20px;
         width: 85%;
         font-size: 28px !important;
@@ -765,6 +766,10 @@ h2.prodetail {
     }
     .col-xs-11 {
         width: 100%;
+    }
+    #contact > h3 {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 

@@ -216,12 +216,10 @@
 	<div class = "col-sm-11 col-xs-12">
 		<div class="row whitespace-2">
 			<div class="col-sm-4">
-				<h4>PT ORIENT INDO CHEMORI</h4>
+				<h4><b>PT ORIENT INDO CHEMORI</b></h4>
 				<p>
-					<b>
-						JAKARTA GARDEN CITY<br/>
-						Rukan Avenue No. 8-002<br/>
-					</b>
+					JAKARTA GARDEN CITY<br/>
+					Rukan Avenue No. 8-002<br/>
 					Jl. Raya Cakung Cilincing KM 0.5<br/>
 					Cakkung Timur, Jakarta 13910<br/>
 					Indonesia

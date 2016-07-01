@@ -20,4 +20,5 @@ Route::get('/', function () {
 Route::get('/', 'PagesController@index');
 Route::get('about/', 'PagesController@about');
 Route::get('product/', 'PagesController@product');
+Route::get('product/detail/', 'PagesController@productDetail');
 Route::get('contact/', 'PagesController@contact');
